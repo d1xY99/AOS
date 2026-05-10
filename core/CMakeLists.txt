@@ -1,0 +1,23 @@
+include_directories(
+    incl
+    ../arch/common/include
+    ../arch/${ARCH}/include
+    ../arch/${ARCH}/common/include
+    ../arch/${ARCH}/../common/include
+    ../arch/${ARCH}/../../common/include
+    incl/display
+    incl/kernel
+    incl/drivers
+    incl/filesystem
+    incl/filesystem/devicefs
+    incl/filesystem/minixfs
+    incl/filesystem/pseudofs
+    incl/filesystem/ramfs
+    incl/ipc
+    incl/memory
+    incl/utility
+    incl/aostl
+    incl/audio
+)
+
+add_subdirectory(src)

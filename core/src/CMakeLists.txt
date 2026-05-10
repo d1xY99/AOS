@@ -1,0 +1,7 @@
+add_subdirectory(display)
+add_subdirectory(filesystem)
+add_subdirectory(kernel)
+add_subdirectory(memory)
+add_subdirectory(utility)
+add_subdirectory(aostl)
+add_subdirectory(audio)

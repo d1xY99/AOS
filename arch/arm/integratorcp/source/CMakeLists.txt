@@ -1,0 +1,1 @@
+add_aos_library(arch_arm_integratorcp)
