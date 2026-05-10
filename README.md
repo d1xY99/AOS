@@ -1,6 +1,6 @@
 # AOS
 
-x86 / ARM  kernel written in C++17. AOS boots under QEMU with GRUB, runs in 64-bit long mode, supports preemptive multitasking, demand paging with swap, a MINIX-based filesystem, and a POSIX-style userspace with pthreads, pipes, shared memory and `mmap`.
+x86 / ARM  kernel written in C++. AOS boots under QEMU with GRUB, runs in 64-bit long mode, supports preemptive multitasking, demand paging with swap, a MINIX-based filesystem, and a POSIX-style userspace with pthreads, pipes, shared memory and `mmap`.
 
 The project is intentionally compact — so the entire boot path, scheduler, MM and syscall layer fit in your head. It is designed to be read, and extended.
 
